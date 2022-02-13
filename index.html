@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Roboto&display=swap');
+
+		* {
+    		padding: 0;
+   			margin: 0;
+		}
+
+		body {
+    		background: #020202;
+    		font-family: Roboto;
+		}	
+		.head {
+			justify-content: center;
+			background: url(1.jpg);
+			position: relative;
+			width: 1280px;
+			height: 720px;
+			left: 0px;
+			top: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			bottom: -10px;
+		}
+		.tittle {
+			position: absolute;
+			width: 594px;
+			height: 60px;
+			left: 100px;
+			top: 310px;
+			color: #ffffff;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 64px;
+			line-height: 75px;
+		}
+		.desc {
+			position: absolute;
+			width: 418px;
+			height: 54px;
+			left: 100px;
+			top: 370px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 23px;
+			display: flex;
+			align-items: center;
+			color: #FFFFFF;
+		}
+		.buttons {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 36px;
+			line-height: 42px;
+			text-decoration: none;
+			right: 0;
+			/* position: absolute; */
+			display: flex;
+			
+		}
+		.button {
+			position: absolute;
+			width: 277px;
+			height: 69px;
+			left: 100px;
+			top: 449px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 23px;
+			display: block;
+			align-items: center;
+			text-align: center;
+			color: #FFFFFF;
+			background: #A90707;
+			-webkit-transition: all 0.5s ease;
+    		-moz-transition: all 0.5s ease;
+   			-ms-transition: all 0.5s ease;
+    		-o-transition: all 0.5s ease;
+    		transition: all 0.5s ease;
+		}
+		.button:hover{
+			background:rgb(218, 2, 2);
+			transition: 1s;
+		}
+		.text {
+			padding-top: 22px;
+		}  
+		.redbut {
+			background: #A90707;
+			width: 167px;
+			height: 40px;	
+			text-align: center;
+			position: absolute;
+			margin: -5px 0px 0px 500px;
+			-webkit-transition: all 0.5s ease;
+    		-moz-transition: all 0.5s ease;
+   			-ms-transition: all 0.5s ease;
+    		-o-transition: all 0.5s ease;
+    		transition: all 0.5s ease;
+		}	
+		.redbut:hover{
+			background:rgb(218, 2, 2);
+			transition: 1s;
+		}
+		.first {
+			color: #ffffff;
+			text-decoration:none;
+			margin: 50px 0px 0px 300px;
+		}
+		.second {
+			text-decoration:none;
+			margin: 50px 0px 0px 200px;
+		}
+		.third {
+			text-decoration:none;
+			margin: 50px 0px 0px 200px;
+		}
+		.firstt{
+			position: absolute;
+			margin: 0px 0px 0px 740px;
+		}
+		.secondd{
+			position: absolute;
+			margin: 0px 0px 0px 1000px;
+		}
+		.thirdd{
+			position: absolute;
+			margin: 0px 0px 0px 1230px;
+		}
+		.wrap {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 28px;
+			display: flex;
+			align-items: center;
+			color: #FFFFFF;
+			padding-top: 50px;
+			display: flex;
+			flex-direction: row;
+		}
+		a {
+			text-decoration: none;
+			color: #ffffff; 
+		}
+		.more-films-list {
+			margin-left: auto;
+			margin-right: auto;
+			width: 1180px;
+			max-height: 1918px;
+		    margin-bottom: 50px;
+		    align-items: center;
+		    justify-content: center;
+		    box-sizing: border-box;
+		   	display: flex;
+		}
+
+		.more-films> h1 {
+			width: 335px;
+			height: 42.57px;
+			left: 73px;
+			top: 950px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: 42px;
+			color: #FFFFFF;
+			display: block;
+		    color: white;
+		    font-weight: bold;
+		    font-size: 36px;
+		    margin-bottom: 15px;
+		}
+
+		.more-films-list > a > img {
+		    width: 200px;
+		    height: 282px;
+		}
+
+		.more-films-list > a > h4 {
+		    color: white;
+		    margin-top: 12px;
+		    font-size: 14px;
+		}
+
+		.more-films-list > a {
+		    margin-right: 35px;
+		}
+
+		.more-films-list > a:nth-child(5) {
+		    margin-right: 0;
+		}
+
+		.more-films-list > a > h4:nth-child(3) {
+		    color: #C41B1B;
+		    margin-top: 3px;
+		}
+		.more-films {
+			margin-top: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1180px;
+			height: 1918px;
+		    justify-content: center;
+		    box-sizing: border-box;
+			background: #111;
+		}
+		#a_1{
+    margin-top:130px ;
+    margin-left: 210px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_2{
+    margin-top:180px ;
+    margin-left: 240px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_3{
+    margin-top:230px ;
+    margin-left: 210px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_4{
+    margin: 130px 0px 0px 540px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_5{
+    margin: 180px 0px 0px 563px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_6{
+    margin: 230px 0px 0px 540px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_7{
+    margin: 130px 0px 0px 870px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_8{
+    margin: 180px 0px 0px 865px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_9{
+    margin: 230px 0px 0px 870px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#a_1:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_2:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_3:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_4:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_5:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_6:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_7:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_8:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+#a_9:hover{
+    transition: 1s;
+    color: rgb(148, 148, 148);
+}
+footer{
+    background-color: #111111;
+    height: 350px;
+    width: 1280px;
+    margin: 105px 0px 0px 310px;
+}
+footer a{
+    font-family: 'Roboto', sans-serif;
+    color: #4C5155;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #686E73;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    position: absolute;
+    margin:55px 0px 0px 350px;
+
+}
+.comp_name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    margin: 300px 0px 0px 550px;  
+    position: absolute;
+}
+
+.third_hr hr{
+    width: 1178px;
+    margin: 50px 0px 0px 360px; 
+    border: 3px solid #1C1E21;
+	position: absolute;
+}
+		</style>
+	<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+	<body>
+		<div class="head">
+		 	<div class="buttons">
+		 		<div class="first"><a href="Page firstend/index.html">Home</a></div> <div class="second"><a href="#">Films</a></div> <div class="third"><a href="#">About</a></div>
+			</div>
+		 <div class="tittle">
+		 	Мы все мертвы
+		 </div>
+		 	<div class="desc">
+		 		2022| Южная Корея |<div class="red">18+</div>
+		 	</div>
+		 	<a href="#"><div class="button">
+		 		<div class="text">Читать о сериале</div>
+			</div></a>
+		</div>
+		 <div class="center">
+		 	<div class="wrap">
+		 	<a href="#"><div class="redbut">Всё
+		 	</div></a>
+			<div class="blackbut">
+				<div class="firstt">
+					<a href="#">Лучшие из 2022</a>
+		 		</div>
+		 	<div class="secondd"><a href="#">Популярные</a>
+		 	</div>
+		 		<div class="thirdd"><a href="#">Для тебя</a>
+		 		</div>
+		 	</div>
+		 </div>
+		    <div class="more-films">
+		    	<h1>Ужасы:</h1>
+            <div class="more-films-list">
+                <a href="20/index.html"> <img src="20/images/2.jpg"><h4>Анабель</h4><h4>16+</h4></a>
+                <a href="2/index.html"> <img src="2/images/2.jpg"><h4>Круэлла</h4><h4>12+</h4></a>
+                <a href="15/index.html"> <img src="15/images/2.jpg"><h4>Бабадук</h4><h4>16+</h4></a>
+                <a href="16/index.html"> <img src="16/images/2.jpg"><h4>Оно</h4><h4>18+</h4></a>
+                <a href="13/index.html"> <img src="13/images/2.jpg"><h4>Бегущий в лабиринте</h4><h4>16+</h4></a>
+            </div>
+   	    	<h1>Война:</h1>
+            <div class="more-films-list">
+                <a href="6/index.html"> <img src="6/images/2.jpg"><h4>1917</h4><h4>16+</h4></a>
+                <a href="11/index.html"> <img src="11/images/2.jpg"><h4>Брестская крепость</h4><h4>16+</h4></a>
+                <a href="12/index.html"> <img src="12/images/2.jpg"><h4>Горячий снег</h4><h4>16+</h4></a>
+                <a href="19/index.html"> <img src="19/images/2.jpg"><h4>Несокрушимый</h4><h4>12+</h4></a>
+                <a href="3/index.html"> <img src="3/images/2.jpg"><h4>Дюна</h4><h4>12+</h4></a>
+            </div>
+            <h1>Комедия:</h1>
+            <div class="more-films-list">
+                <a href="4/index.html"> <img src="4/images/2.jpg"><h4>Райя</h4><h4>12+</h4></a>
+                <a href="8/index.html"> <img src="8/images/2.jpg"><h4>Полицейский с рублевки</h4><h4>16+</h4></a>
+                <a href="5/index.html"> <img src="5/images/2.jpg"><h4>Гарри Поттер</h4><h4>12+</h4></a>
+                <a href="14/index.html"> <img src="14/images/2.jpg"><h4>Последний богатырь</h4><h4>6+</h4></a>
+                <a href="10/index.html"> <img src="10/images/2.jpg"><h4>Дедпулл 2</h4><h4>18+</h4></a>
+            </div>
+   	    	<h1>Остальное:</h1>
+            <div class="more-films-list">
+                <a href="7/index.html"> <img src="7/images/2.jpg"><h4>Острые козырьки</h4><h4>16+</h4></a>
+                <a href="17/index.html"> <img src="17/images/2.jpg"><h4>Ход королевы</h4><h4>18+</h4></a>
+                <a href="18/index.html"> <img src="18/images/2.jpg"><h4>Аватар</h4><h4>12+</h4></a>
+                <a href="9/index.html"> <img src="9/images/2.jpg"><h4>Дом Гуччи</h4><h4>18+</h4></a>
+                <a href="1234/index.html"> <img src="1234/images/2.jpg"><h4>Человек паук</h4><h4>12+</h4></a>
+            </div>	
+        </div>
+		<div class="third_hr"><p></p><hr></div>
+		<footer>
+			<p>Есть вопросы? Позвоните по телефону 0000-000-000</p>
+			<a href="#" id="a_1">Настройка файлов cookie </a>
+			<a href="#"id="a_2">Стать инвестором</a>
+			<a href="#"id="a_3">Настройка файлов cookie</a>
+			<a href="#"id="a_4">Свяжитесь с нами</a>
+			<a href="#"id="a_5">Медиацентр</a>
+			<a href="#"id="a_6">Свяжитесь с нами</a>
+			<a href="#"id="a_7">Способы просмотра</a>
+			<a href="#"id="a_8">Конфиденциальность</a>
+			<a href="#"id="a_9">Способы просмотра</a>
+			<p class="comp_name">CompanyName 2022</p>
+		</footer>
+</body>
+	<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dc5ab9deda63374',m:'j7pOyIF6K_kXk75e4BQafsKmhy2iY.9nxz.lsXfUzQM-1644667371-0-AeJaNcbKrNHnX8M1F68U/ydmRE0W14yRyhxyVR4TfJye0bHyqHIhOS8wslfRaLLTTefj6uiVFZr8ar+T/1mUUI49Xxk8X3hWShQfzrnV99yzc/C214NF1Wg/pcnidHj+sGB4uMb0hCBXlaVdapeHpeqkCX1qS7FYq2Hx0tRntBuMfloEEetK0cQ2ZkJrvFtmXw==',s:[0x9f69d91ee2,0x9125e27a2f],}})();</script></body>
+</html>
